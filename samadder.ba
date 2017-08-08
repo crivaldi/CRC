@@ -1,0 +1,15 @@
+#!/bin/bash
+###Written by Chissa Rivaldi 11/1/16
+###Appends extension to the end of filenames
+###for this script, adds .sam to end of filenames
+
+###Bash script composed of one liners
+
+
+###takes filename and appends to it the extension ".sam"
+
+        for i in */*_barcode_*; do
+              mv -- "$i" "$i.sam";
+        done
+
+

@@ -1,0 +1,14 @@
+#!/bin/csh
+
+#$ -M crivaldi@nd.edu	 # Email address for job notification
+#$ -m abe		 # Send mail when job begins, ends and aborts
+#$ -q short		 # Specify queue
+#$ -N cat_R1_all	         # Specify job name
+
+module load bio	         # Required modules
+
+cd /scratch365/crivaldi/Run121815B_KlegarthRAD_ReRun/Sample_RAD/fastq_only
+
+
+cat RAD_NoIndex_L002_R1_0* > RAD_NoIndex_L002_R1_all.fastq
+

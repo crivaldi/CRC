@@ -1,0 +1,20 @@
+#!/bin/bash
+###This file takes output from bowtie2 (or any sam file) and converts it to a bam file, then extracts the mapped reads and then
+
+
+
+
+###need to do still - adjust for input files (sys argv, etc)
+
+
+
+
+
+
+
+samtools view -b -F 4 Bar_C_M_fasc_amy1_hmmout.bam > mapped.bam
+
+##bam2fasta
+
+samtools fasta mapped.bam
+

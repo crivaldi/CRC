@@ -1,0 +1,25 @@
+#!/bin/bash
+###Written by Chissa Rivaldi 7/2/16
+
+
+###Bash script composed of one liners
+
+
+###takes filename and appends it to first column of csv table, replaces first letter of existing text string in column
+
+        for i in $( ls ); do
+            echo item: $i  sed "s/^./$i/g" $i > named$i;
+        done
+
+###then puts into all one table
+### 'namedO*' refers to the partial output of the previous step, all files initially began with either O or G before contents were altered
+
+cat namedO* > Ors
+
+####Then prints out the relevent columns and puts those in a new file
+###I used gawk instead of awk because google and -F indicates the field separater is a comma
+
+cat Ors | gawk -F, '{print $1,$7}' > Ors_only_p_and_name
+
+####From here I downloaded to local machine and opened with excel, sorted to remove all headers and saved as a .txt to send to a collaborater
+

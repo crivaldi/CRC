@@ -1,0 +1,14 @@
+#!/bin/csh
+
+#$ -M crivaldi@nd.edu	 # Email address for job notification
+#$ -m abe		 # Send mail when job begins, ends and aborts
+#$ -q long
+#$ -N cutadapt_adaptorsfile-2	 # Specify job name
+#$ -pe smp 8            #cores
+
+
+module load bio        # Required modules to load
+
+
+cutadapt -b file:/afs/crc.nd.edu/user/c/crivaldi/data/cutadapt_out/adaptors.fasta -o /afs/crc.nd.edu/user/c/crivaldi/data/cutadapt_out/2_RAD_R1_cut.fastq.gz /afs/crc.nd.edu/group/hollocher/macaque/Run112515A_MS1MS2_Wilcox-Klegarth_UNH_new_but_only_R1/MelissaS_KlegarthRAD-26801775/RAD-31013999/RAD_S97_L002_R1_001.fastq.gz
+

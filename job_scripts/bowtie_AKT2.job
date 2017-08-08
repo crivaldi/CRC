@@ -1,0 +1,18 @@
+#!/bin/csh
+
+
+#$ -M crivaldi@nd.edu
+#$ -m abe
+#$ -r n
+#$ -q *@@bio
+#$ -N cuffdiffworkshop
+#$ -pe smp 4
+
+cd /scratch365/crivaldi/data/M_fascicularis/
+
+module load bio
+
+bowtie2 -x /scratch365/crivaldi/data/M_fascicularis/M_fasc_AKT2 -U /afs/crc.nd.edu/group/hollocher/macaque/Run121815B_KlegarthRAD_ReRun/Sample_RAD/fastq_only/all_combined/RAD_NoIndex_L002_R1_all.fastq -S 2015_RAD-feces__RAD_$
+
+
+

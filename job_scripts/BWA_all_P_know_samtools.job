@@ -1,0 +1,36 @@
+#!/bin/csh
+
+#$ -M crivaldi@nd.edu	 # Email address for job notification
+#$ -m abe		 # Send mail when job begins, ends and aborts
+#$ -q long		 # Specify queue
+#$ -N BWAP_know_sam	         # Specify job name
+#$ -r y			#don't know what this does-in sheri's job scripts
+#$ -pe smp 8		#cores
+
+module load bio	         # Required modules
+
+set path = ( $path /afs/crc.nd.edu/user/c/crivaldi/local/bin )
+
+cd  /afs/crc.nd.edu/user/c/crivaldi/data
+
+###USING SAMTOOLS
+###	previous step - alignment with BWA
+###   	convert sam to bam
+###   	samtools view -bS YourSam.sam -o YourNewBam.bam
+
+samtools view -bS /scratch365/crivaldi/data/P_knowlesi/P_knowlesi.sam -o /scratch365/crivaldi/data/P_knowlesi/P_knowlesi.bam
+
+###	sort bam file
+###	samtools sort YourBam.bam YourBam.sorted
+   
+samtools sort  /scratch365/crivaldi/data/P_knowlesi/P_knowlesi.bam /scratch365/crivaldi/data/P_knowlesi/P_knowlesi.bam.sorted
+
+###	index bam file bam -> bai
+###	samtools index YourBam.sorted.bam
+   
+samtools index /scratch365/crivaldi/data/P_knowlesi/P_knowlesi.bam.sorted.bam
+
+###	index genome fasta
+###	samtools faidx YourReference.fasta
+
+samtools faidx /scratch365/crivaldi/data/P_knowlesi/GCF_000006355.1_ASM635v1_genomic.fna

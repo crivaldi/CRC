@@ -1,0 +1,14 @@
+#!/bin/csh
+
+#$ -M crivaldi@nd.edu	 # Email address for job notification
+#$ -m abe		 # Send mail when job begins, ends and aborts
+#$ -q long
+#$ -N bowtie_Mfasc	 # Specify job name
+#$ -pe smp 8            #cores
+
+
+module load bio        # Required modules to load
+
+
+cutadapt -b GATCGGAAGAGCACACGTCTGAACTCCAGTCACATCACGA -o /afs/crc.nd.edu/user/c/crivaldi/data/cutadapt_out/wkshop.fastq /afs/crc.nd.edu/group/hollocher/macaque/Run121815B_KlegarthRAD_ReRun/Sample_RAD/fastq_only/all_combined/RAD_NoIndex_L002_R1_all.fastq
+

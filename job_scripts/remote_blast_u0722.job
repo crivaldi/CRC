@@ -1,0 +1,16 @@
+#!/bin/csh
+
+#$ -M crivaldi@nd.edu	 # Email address for job notification
+#$ -m abe		 # Send mail when job begins, ends and aborts
+#$ -q long
+#$ -N remoteblastu0722	 # Specify job name
+
+module load bio        # Required modules to load
+
+
+/afs/crc.nd.edu/user/c/crivaldi/local/bin/blastn -query /afs/crc.nd.edu/user/c/crivaldi/data/HotRad_out/u0722.fasta -db nt -remote -max_target_seqs 10 -evalue 10e6 -outfmt 6 -out /afs/crc.nd.edu/user/c/crivaldi/data/blast_out/remoteblast_u0722.outfmt6
+
+
+
+
+

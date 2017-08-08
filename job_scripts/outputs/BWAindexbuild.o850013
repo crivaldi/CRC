@@ -1,0 +1,5 @@
+[bwa_index] Pack FASTA... 50.55 sec
+[bwa_index] Construct BWT for the packed sequence...
+[bwa_index] 754.08 seconds elapse.
+[bwa_index] Update BWT... [bwt_bwtupdate_core] inconsistent bwt_size Abort!
+Abort (core dumped)

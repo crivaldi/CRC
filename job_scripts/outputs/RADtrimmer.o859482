@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "radtag0_trimmer.py", line 86, in <module>
+    barcodefile = open(args[0])
+IOError: [Errno 2] No such file or directory: 'RAD_Barcodes_trimer.txt'

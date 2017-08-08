@@ -1,0 +1,60 @@
+[bwa_index] Pack FASTA... 23.89 sec
+[bwa_index] Construct BWT for the packed sequence...
+[BWTIncCreate] textLength=3427282872, availableWord=253155940
+[BWTIncConstructFromPacked] 10 iterations done. 99999992 characters processed.
+[BWTIncConstructFromPacked] 20 iterations done. 199999992 characters processed.
+[BWTIncConstructFromPacked] 30 iterations done. 299999992 characters processed.
+[BWTIncConstructFromPacked] 40 iterations done. 399999992 characters processed.
+[BWTIncConstructFromPacked] 50 iterations done. 499999992 characters processed.
+[BWTIncConstructFromPacked] 60 iterations done. 599999992 characters processed.
+[BWTIncConstructFromPacked] 70 iterations done. 699999992 characters processed.
+[BWTIncConstructFromPacked] 80 iterations done. 799999992 characters processed.
+[BWTIncConstructFromPacked] 90 iterations done. 899999992 characters processed.
+[BWTIncConstructFromPacked] 100 iterations done. 999999992 characters processed.
+[BWTIncConstructFromPacked] 110 iterations done. 1099999992 characters processed.
+[BWTIncConstructFromPacked] 120 iterations done. 1199999992 characters processed.
+[BWTIncConstructFromPacked] 130 iterations done. 1299999992 characters processed.
+[BWTIncConstructFromPacked] 140 iterations done. 1399999992 characters processed.
+[BWTIncConstructFromPacked] 150 iterations done. 1499999992 characters processed.
+[BWTIncConstructFromPacked] 160 iterations done. 1599999992 characters processed.
+[BWTIncConstructFromPacked] 170 iterations done. 1699999992 characters processed.
+[BWTIncConstructFromPacked] 180 iterations done. 1799999992 characters processed.
+[BWTIncConstructFromPacked] 190 iterations done. 1899999992 characters processed.
+[BWTIncConstructFromPacked] 200 iterations done. 1999999992 characters processed.
+[BWTIncConstructFromPacked] 210 iterations done. 2099999992 characters processed.
+[BWTIncConstructFromPacked] 220 iterations done. 2199999992 characters processed.
+[BWTIncConstructFromPacked] 230 iterations done. 2299999992 characters processed.
+[BWTIncConstructFromPacked] 240 iterations done. 2399999992 characters processed.
+[BWTIncConstructFromPacked] 250 iterations done. 2499999992 characters processed.
+[BWTIncConstructFromPacked] 260 iterations done. 2599999992 characters processed.
+[BWTIncConstructFromPacked] 270 iterations done. 2699999992 characters processed.
+[BWTIncConstructFromPacked] 280 iterations done. 2798618584 characters processed.
+[BWTIncConstructFromPacked] 290 iterations done. 2887663736 characters processed.
+[BWTIncConstructFromPacked] 300 iterations done. 2966803288 characters processed.
+[BWTIncConstructFromPacked] 310 iterations done. 3037138696 characters processed.
+[BWTIncConstructFromPacked] 320 iterations done. 3099648984 characters processed.
+[BWTIncConstructFromPacked] 330 iterations done. 3155204264 characters processed.
+[BWTIncConstructFromPacked] 340 iterations done. 3204577912 characters processed.
+[BWTIncConstructFromPacked] 350 iterations done. 3248457352 characters processed.
+[BWTIncConstructFromPacked] 360 iterations done. 3287453464 characters processed.
+[BWTIncConstructFromPacked] 370 iterations done. 3322109288 characters processed.
+[BWTIncConstructFromPacked] 380 iterations done. 3352907448 characters processed.
+[BWTIncConstructFromPacked] 390 iterations done. 3380276936 characters processed.
+[BWTIncConstructFromPacked] 400 iterations done. 3404598968 characters processed.
+[BWTIncConstructFromPacked] 410 iterations done. 3426212392 characters processed.
+[bwa_index] 1642.76 seconds elapse.
+[bwa_index] Update BWT... 14.91 sec
+[bwa_index] Pack forward-only FASTA... 14.65 sec
+[bwa_index] Construct SA from BWT and Occ... 469.55 sec
+[bwt_gen] Finished constructing BWT in 411 iterations.
+[main] Version: 0.7.12-r1039
+[main] CMD: /afs/crc.nd.edu/x86_64_linux/bio/BWA/0.7.12/bin/bwa index /scratch365/crivaldi/data/C_carpio/GCA_000951615.1_common_carp_genome_genomic.fna
+[main] Real time: 2221.581 sec; CPU: 2165.771 sec
+[bwa_aln_core] calculate SA coordinate... 0.15 sec
+[bwa_aln_core] write to the disk... 0.00 sec
+[bwa_aln_core] 270 sequences have been processed.
+[main] Version: 0.6.2-r126
+[main] CMD: bwa aln -n 3 -k 8 -t 8 /scratch365/crivaldi/data/C_carpio/GCA_000951615.1_common_carp_genome_genomic.fna /afs/crc.nd.edu/user/c/crivaldi/data/testing_data/U0722
+[main] Real time: 1.486 sec; CPU: 1.523 sec
+[bwa_sai2sam_se_core] fail to open file '/scratch365/crivaldi/data/U0722.sai'. Abort!
+Abort (core dumped)

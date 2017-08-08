@@ -1,0 +1,45 @@
+#!/bin/csh
+
+#$ -M crivaldi@nd.edu	 # Email address for job notification
+#$ -m abe		 # Send mail when job begins, ends and aborts
+#$ -q long		 # Specify queue
+#$ -N BWA-mem_carp	         # Specify job name
+#$ -r y			#don't know what this does-in sheri's job scripts
+#$ -pe smp 8		#cores
+
+module load bio	         # Required modules
+
+set path = ( $path /afs/crc.nd.edu/user/c/crivaldi/local/bin )
+
+cd  /afs/crc.nd.edu/user/c/crivaldi/data
+
+###BWA INDEX STEP
+###bwa index -a bwtsw /scratch365/crivaldi/data/M_fascicularis/GCF_000364345.1_Macaca_fascicularis_5.0_genomic.fna
+
+/afs/crc.nd.edu/x86_64_linux/bio/BWA/0.7.12/bin/bwa index /scratch365/crivaldi/data/C_carpio/GCA_000951615.1_common_carp_genome_genomic.fna
+
+
+
+###BWA ALIGNMENT STEP
+
+
+   bwa aln -n 3 -k 8 -t 8 /scratch365/crivaldi/data/C_carpio/GCA_000951615.1_common_carp_genome_genomic.fna /afs/crc.nd.edu/user/c/crivaldi/data/testing_data/U0722 > /scratch365/crivaldi/data/U0722_bwamem_C_carpio.sai
+
+
+###BWA ALIGNMENT STEP IF USING PAIRED READS
+
+
+####for paired ends###   bwa aln -n 3 -k 8 -t 8 Daphnia_magna_v2.4.fasta CombinedMagnaQC_2.fq > Magna_PE2redone.sai
+
+
+###BWA SAMSE STEP (SAMPE for paired ends)
+
+
+
+   bwa samse /scratch365/crivaldi/data/C_carpio/GCA_000951615.1_common_carp_genome_genomic.fna /scratch365/crivaldi/data/U0722.sai /afs/crc.nd.edu/user/c/crivaldi/data/testing_data/UO722 > /scratch365/crivaldi/data/U0722_bwamem_c_carp.sam
+
+ 
+
+
+
+####ben script from radwiki ### Magna_PE1redone.sai Magna_PE2redone.sai CombinedMagnaQC_1.fq CombinedMagnaQC_2.fq > MagnaBothLanesredone.sam

@@ -1,0 +1,18 @@
+#!/bin/csh
+
+#$ -M crivaldi@nd.edu	 # Email address for job notification
+#$ -m abe		 # Send mail when job begins, ends and aborts
+#$ -q long		 # Specify queue
+#$ -N fastx         # Specify job name
+#$ -r y			#don't know what this does-in sheri's job scripts
+#$ -pe smp 8		#cores
+
+module load bio	         # Required modules
+
+#set path = ( $path /afs/crc.nd.edu/user/c/crivaldi/local/bin/fastx_binaries/bin/ )
+
+
+
+perl /afs/crc.nd.edu/user/c/crivaldi/local/bin/fastx_binaries/bin/fastx_barcode_splitter.pl --bcfile /afs/crc.nd.edu/user/c/crivaldi/data/fastx/Rad_Barcodes_8.txt --prefix /afs.crc.nd.edu/user/c/crivaldi/data/testing_data/RAD_NoIndex_L002_R1_top1000.fastq --bol
+
+

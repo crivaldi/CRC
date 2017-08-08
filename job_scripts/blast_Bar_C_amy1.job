@@ -1,0 +1,17 @@
+#!/bin/csh
+
+
+#$ -M crivaldi@nd.edu
+#$ -m abe
+#$ -r n
+#$ -q *@@bio
+#$ -N Blast_amy1_Bar_C
+#$ -pe smp 4
+
+cd /scratch365/crivaldi/data/Amylase/
+
+module load bio
+
+
+/afs/crc.nd.edu/user/c/crivaldi/local/bin/blastn -db ../2014_saliva/Preliminary_Saliva_RAD_Data/Barcode_C_database/Barcode_CTGCGAATT.fasta -query amy1_edited.fasta -outfmt 7 -num_threads 8 -out Barcode_C_amy1.outfmt7
+

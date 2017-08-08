@@ -1,0 +1,16 @@
+#!/bin/csh
+
+#$ -M crivaldi@nd.edu	 # Email address for job notification
+#$ -m abe		 # Send mail when job begins, ends and aborts
+#$ -q long		 # Specify queue
+#$ -N cope_rad	         # Specify job name
+
+module load bio	         # Required modules
+
+cd /afs/crc.nd.edu/user/c/crivaldi/local/
+
+
+
+
+
+./cope -a /scratch365/crivaldi/data/Reads/RAD_NoIndex_L002_R1_all.fastq -b /scratch365/crivaldi/data/Reads/RAD_NoIndex_L002_R3_all.fastq -o /scratch365/crivaldi/data/cope_out/connect.fq -2 /scratch365/crivaldi/data/cope_out/left1.fq -3 /scratch365/crivaldi/data/cope_out/left2.fq -m 0

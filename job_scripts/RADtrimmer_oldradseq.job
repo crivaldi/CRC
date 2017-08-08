@@ -1,0 +1,20 @@
+#!/bin/csh
+
+#$ -M crivaldi@nd.edu	 # Email address for job notification
+#$ -m abe		 # Send mail when job begins, ends and aborts
+#$ -q long		 # Specify queue
+#$ -N RADtrimmer	         # Specify job name
+
+module load bio	         # Required modules
+
+
+set path = ( $path /afs/crc.nd.edu/user/c/crivaldi/local/bin )
+cd  /afs/crc.nd.edu/user/c/crivaldi/local/bin/NDBL_HOT_RAD/python/
+
+
+python radtag0_trimmer.py -i /afs/crc.nd.edu/user/c/crivaldi/data/klegarth_amy_20121212_RAD-tag_BARCODE_SHEET_ONLY.txt /afs/crc.nd.edu/user/c/crivaldi/data/part_unzipped_RAD_S97_L002_R1_001.fastq
+
+
+##this script is to demultiplex a subset of the first rad seq run (qsubbed on 4/12/16).  I'm working on the older data because working with the newer data is giving confusing results, like
+##alignment to  the cyprinus carpio (common carp) genome & not anything we would expect in macaque feces.  The partial data is ~1m reads and was the result of the partially unzipped file 
+##/afs/crc.nd.edu/group/hollocher/macaque/Run112515A_MS1MS2_Wilcox-Klegarth_UNH/MelissaS_KlegarthRAD-26801775/RAD-31013999/RAD_S97_L002_R1_001.fastq.gzx

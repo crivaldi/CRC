@@ -1,0 +1,18 @@
+#!/bin/csh
+
+
+#$ -M crivaldi@nd.edu
+#$ -m abe
+#$ -r n
+#$ -q *@@bio
+#$ -N hmmer_mfasc_amy1
+#$ -pe smp 4
+
+cd /scratch365/crivaldi/data/Amylase/
+
+module load bio
+
+./hmmsearch -A M_fasc_amy1.sto amy1_top20.hmm ../M_fascicularis/GCF_000364345.1_Macaca_fascicularis_5.0_genomic.fna > M_fasc_amy1.hmmout
+
+
+

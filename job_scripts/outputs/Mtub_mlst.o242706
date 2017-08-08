@@ -1,0 +1,4 @@
+Could not locate a Bowtie index corresponding to basename "/scratch365/crivaldi/data/M_fascicularis/M_tub_MLST"
+Error: Encountered internal Bowtie 2 exception (#1)
+Command: /afs/crc.nd.edu/x86_64_linux/bio/Bowtie/2.2.3/bowtie2-align-s --wrapper basic-0 -x /scratch365/crivaldi/data/M_fascicularis/M_tub_MLST -S M_tub_MLST_barcode_C -U /afs/crc.nd.edu/group/hollocher/macaque/Preliminary_Saliva_RAD_Data/Barcode_CTGCGAATT.fastq 
+(ERR): bowtie2-align exited with value 1

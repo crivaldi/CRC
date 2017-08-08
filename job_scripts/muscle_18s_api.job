@@ -1,0 +1,13 @@
+#!/bin/csh
+
+#$ -M crivaldi@nd.edu	 # Email address for job notification
+#$ -m abe		 # Send mail when job begins, ends and aborts
+#$ -q short		 # Specify queue
+#$ -N muscle_18s_api	         # Specify job name
+
+module load bio	         # Required modules
+
+cd /afs/crc.nd.edu/user/c/crivaldi/local/bin/
+
+./muscle3.8.31_i86linux64 -in ~/data/18S_apicomplexa_seqlength1500-2000.fasta -out ~/data/18S_apicomplexa_seqlength1500-2000.aln
+

@@ -1,0 +1,15 @@
+#!/bin/csh
+
+#$ -M crivaldi@nd.edu    # Email address for job notification
+#$ -m abe                # Send mail when job begins, ends and aborts
+#$ -q long
+#$ -N bayes_ors       # Specify job name
+#$ -pe smp 8            #cores
+
+
+
+module load mpich
+module load bio
+
+
+/afs/crc.nd.edu/user/c/crivaldi/local/bin/mrbayes-3.2.6/src/mb  -i /afs/crc.nd.edu/user/c/crivaldi/data/mrbayes/Ors_4_fixed.par > /afs/crc.nd.edu/user/c/crivaldi/data/mrbayes/

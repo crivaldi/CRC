@@ -1,0 +1,1 @@
+Warning: [blastn] lcl|Query_143404 143403_AS0710_HSQ-7001360:260:H3YLMADXX:2:2216:9359:2400 1:N:0:/1: Warning: Could not calculate ungapped Karlin-Altschul parameters due to an invalid query sequence or its translation. Please verify the query sequence(s) and/or filtering options 

@@ -1,0 +1,38 @@
+#!/bin/csh
+
+#$ -M crivaldi@nd.edu	 # Email address for job notification
+#$ -m abe		 # Send mail when job begins, ends and aborts
+#$ -q long		 # Specify queue
+#$ -N BWAM_fasc_CO1X	         # Specify job name
+#$ -r y			#don't know what this does-in sheri's job scripts
+##$ -pe smp 8		#cores
+
+module load bio	         # Required modules
+
+set path = ( $path /afs/crc.nd.edu/user/c/crivaldi/local/bin )
+
+cd  /afs/crc.nd.edu/user/c/crivaldi/data/Fastas/
+
+###BWA INDEX STEP
+###bwa index -a bwtsw /scratch365/crivaldi/data/M_fascicularis/GCF_000364345.1_Macaca_fascicularis_5.0_genomic.fna
+
+###BWA ALIGNMENT STEP
+
+
+###bwa aln Mfasc_CO1_extended.fasta /afs/crc.nd.edu/group/hollocher/macaque/Run121815B_KlegarthRAD_ReRun/Sample_RAD/fastq_only/all_combined/RAD_NoIndex_L002_R1_all.fastq > Mfasc_CO1_extended.sai
+
+
+###BWA ALIGNMENT STEP IF USING PAIRED READS
+
+
+####for paired ends###   bwa aln -n 3 -k 8 -t 8 Daphnia_magna_v2.4.fasta CombinedMagnaQC_2.fq > Magna_PE2redone.sai
+
+
+###BWA SAMPE STEP
+
+bwa samse -n 1000 Mfasc_CO1_extended.fasta Mfasc_CO1_extended.sai /afs/crc.nd.edu/group/hollocher/macaque/Run121815B_KlegarthRAD_ReRun/Sample_RAD/fastq_only/all_combined/RAD_NoIndex_L002_R1_all.fastq > Mfasc_CO1_ext.sam
+ 
+
+
+
+####ben script from radwiki ### Magna_PE1redone.sai Magna_PE2redone.sai CombinedMagnaQC_1.fq CombinedMagnaQC_2.fq > MagnaBothLanesredone.sam

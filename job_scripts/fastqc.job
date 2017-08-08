@@ -1,0 +1,15 @@
+#!/bin/csh
+
+#$ -M crivaldi@nd.edu	 # Email address for job notification
+#$ -m abe		 # Send mail when job begins, ends and aborts
+#$ -q long
+#$ -N fastqc	 # Specify job name
+#$ -pe smp 8            #cores
+
+
+module load bio        # Required modules to load
+
+fastqc CBARCODE.fastq
+
+
+

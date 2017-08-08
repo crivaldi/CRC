@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/afs/crc.nd.edu/x86_64_linux/bio/cutadapt/1.6/bin/cutadapt", line 10, in <module>
+    cutadapt.main()
+  File "/afs/crc.nd.edu/x86_64_linux/bio/cutadapt/1.6/cutadapt/scripts/cutadapt.py", line 700, in main
+    options.discard_untrimmed)
+  File "/afs/crc.nd.edu/x86_64_linux/bio/cutadapt/1.6/cutadapt/scripts/cutadapt.py", line 474, in trimmed_and_untrimmed_files
+    trimmed = untrimmed = xopen(output_path, 'w')
+  File "/afs/crc.nd.edu/x86_64_linux/bio/cutadapt/1.6/cutadapt/xopen.py", line 84, in xopen
+    return open(filename, mode)
+IOError: [Errno 2] No such file or directory: '/afs/crc.nd.edu/user/c/crivaldi/data/cutadapt_out/RAD_R1_cut_Msel1-2_aln.fastq'

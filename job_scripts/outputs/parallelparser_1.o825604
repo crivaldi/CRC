@@ -1,0 +1,260 @@
+/bin/sh: /scratch365/crivaldi/data/Reads//scratch365/crivaldi/RAD_NoIndex_L002.spec101: No such file or directory
+/bin/sh: /scratch365/crivaldi/data/Reads//scratch365/crivaldi/RAD_NoIndex_L002.spec102: No such file or directory
+cat: /scratch365/crivaldi/data/Reads/AN0702R11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/AN0702R11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/AN0702R21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/AN0702R21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/MK0708R11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/MK0708R11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/MK0708R21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/MK0708R21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/U0722R11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/U0722R11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/U0722R21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/U0722R21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/052911_1815_BB241R11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/052911_1815_BB241R11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/052911_1815_BB241R21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/052911_1815_BB241R21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/071512_BT_A_ACH_AMR11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/071512_BT_A_ACH_AMR11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/071512_BT_A_ACH_AMR21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/071512_BT_A_ACH_AMR21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/071811_BB_QR11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/071811_BB_QR11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/071811_BB_QR21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/071811_BB_QR21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/080911_BT_CR11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/080911_BT_CR11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/080911_BT_CR21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/080911_BT_CR21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/052911_1755_BB241R11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/052911_1755_BB241R11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/052911_1755_BB241R21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/052911_1755_BB241R21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/AN0709R11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/AN0709R11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/AN0709R21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/AN0709R21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/PL0702R11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/PL0702R11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/PL0702R21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/PL0702R21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/011611_1734_LP_F229R11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/011611_1734_LP_F229R11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/011611_1734_LP_F229R21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/011611_1734_LP_F229R21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/061612_OT_DR11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/061612_OT_DR11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/061612_OT_DR21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/061612_OT_DR21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/071711_BT_BR11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/071711_BT_BR11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/071711_BT_BR21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/071711_BT_BR21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/071811_LP_ER11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/071811_LP_ER11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/071811_LP_ER21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/071811_LP_ER21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/080911_BT_RR11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/080911_BT_RR11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/080911_BT_RR21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/080911_BT_RR21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/052911_1815_BB241R11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/052911_1815_BB241R11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/052911_1815_BB241R21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/052911_1815_BB241R21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/AN0712R11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/AN0712R11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/AN0712R21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/AN0712R21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/PL0703R11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/PL0703R11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/PL0703R21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/PL0703R21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/032411_BB241R11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/032411_BB241R11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/032411_BB241R21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/032411_BB241R21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/061612_OT_E2R11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/061612_OT_E2R11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/061612_OT_E2R21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/061612_OT_E2R21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/071811_BB_AR11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/071811_BB_AR11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/071811_BB_AR21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/071811_BB_AR21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/072012_US_AR11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/072012_US_AR11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/072012_US_AR21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/072012_US_AR21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/080911_BT_UR11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/080911_BT_UR11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/080911_BT_UR21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/080911_BT_UR21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/071212_BT_AR11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/071212_BT_AR11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/071212_BT_AR21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/071212_BT_AR21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/AS0701R11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/AS0701R11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/AS0701R21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/AS0701R21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/PU0756R11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/PU0756R11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/PU0756R21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/PU0756R21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/042512_1559_OUT2R11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/042512_1559_OUT2R11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/042512_1559_OUT2R21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/042512_1559_OUT2R21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/071212_BT_AR11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/071212_BT_AR11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/071212_BT_AR21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/071212_BT_AR21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/071811_BB_CR11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/071811_BB_CR11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/071811_BB_CR21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/071811_BB_CR21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/072311_RR_FR11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/072311_RR_FR11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/072311_RR_FR21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/072311_RR_FR21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/080911_BT_YR11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/080911_BT_YR11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/080911_BT_YR21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/080911_BT_YR21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/071212_BT_DR11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/071212_BT_DR11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/071212_BT_DR21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/071212_BT_DR21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/AS0702R11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/AS0702R11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/AS0702R21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/AS0702R21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/TK0717R11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/TK0717R11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/TK0717R21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/TK0717R21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/040211_955_AP_259R11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/040211_955_AP_259R11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/040211_955_AP_259R21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/040211_955_AP_259R21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/071212_BT_CR11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/071212_BT_CR11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/071212_BT_CR21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/071212_BT_CR21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/071811_BB_HR11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/071811_BB_HR11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/071811_BB_HR21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/071811_BB_HR21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/072311_RR_HR11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/072311_RR_HR11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/072311_RR_HR21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/072311_RR_HR21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/BG0716R11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/BG0716R11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/BG0716R21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/BG0716R21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/AS0710R11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/AS0710R11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/AS0710R21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/AS0710R21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/U0708R11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/U0708R11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/U0708R21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/U0708R21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/042512_1601_OUT2R11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/042512_1601_OUT2R11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/042512_1601_OUT2R21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/042512_1601_OUT2R21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/071212_BT_DR11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/071212_BT_DR11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/071212_BT_DR21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/071212_BT_DR21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/071811_BB_JR11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/071811_BB_JR11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/071811_BB_JR21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/071811_BB_JR21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/072311_WW_AR11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/072311_WW_AR11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/072311_WW_AR21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/072311_WW_AR21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/PU0756R11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/PU0756R11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/PU0756R21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/PU0756R21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/BG0716R11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/BG0716R11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/BG0716R21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/BG0716R21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/U0718R11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/U0718R11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/U0718R21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/U0718R21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/042512_1709_OUT2R11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/042512_1709_OUT2R11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/042512_1709_OUT2R21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/042512_1709_OUT2R21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/071212_BT_KR11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/071212_BT_KR11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/071212_BT_KR21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/071212_BT_KR21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/071811_BB_KR11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/071811_BB_KR11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/071811_BB_KR21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/071811_BB_KR21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/072311_WW_ER11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/072311_WW_ER11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/072311_WW_ER21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/072311_WW_ER21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/U0718R11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/U0718R11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/U0718R21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/U0718R21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/BT0713R11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/BT0713R11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/BT0713R21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/BT0713R21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/U0720R11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/U0720R11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/U0720R21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/U0720R21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/052911_1755_BB241R11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/052911_1755_BB241R11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/052911_1755_BB241R21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/052911_1755_BB241R21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/071312_BT_AR11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/071312_BT_AR11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/071312_BT_AR21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/071312_BT_AR21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/071811_BB_LR11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/071811_BB_LR11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/071811_BB_LR21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/071811_BB_LR21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/072411_MN_FR11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/072411_MN_FR11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/072411_MN_FR21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/072411_MN_FR21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/042512_1709_OUT2R11*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/042512_1709_OUT2R11*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/042512_1709_OUT2R21*qseq: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/042512_1709_OUT2R21*qseq': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/TinyR1seqs1*: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/TinyR1seqs1*': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/TinyR2seqs1*: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/TinyR2seqs1*': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/UnassignedR1seqs1*: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/UnassignedR1seqs1*': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/UnassignedR2seqs1*: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/UnassignedR2seqs1*': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/ConcatamerR1seqs1*: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/ConcatamerR1seqs1*': No such file or directory
+cat: /scratch365/crivaldi/data/Reads/ConcatamerR2seqs1*: No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads/ConcatamerR2seqs1*': No such file or directory
+rm: cannot remove `/scratch365/crivaldi/data/Reads//scratch365/crivaldi/RAD_NoIndex_L002.spec1*': No such file or directory
+N_processes:  0
+Traceback (most recent call last):
+  File "/scratch365/crivaldi/scripts/ParallelParser.py", line 251, in <module>
+    inputfile = open(path+basefilename1+str(101)+'summary.out')
+FileNotFoundError: [Errno 2] No such file or directory: '/scratch365/crivaldi/data/Reads/RAD_NoIndex_L002_R1_all101summary.out'

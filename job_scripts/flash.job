@@ -1,0 +1,15 @@
+#!/bin/csh
+
+#$ -M crivaldi@nd.edu	 # Email address for job notification
+#$ -m abe		 # Send mail when job begins, ends and aborts
+#$ -q long		 # Specify queue
+#$ -N flash	         # Specify job name
+
+module load bio	         # Required modules
+
+cd /afs/crc.nd.edu/user/c/crivaldi/local/bin/FLASH-1.2.11/
+
+
+./flash -d /scratch365/crivaldi/data/flash_out/ -z /scratch365/crivaldi/data/Reads/RAD_NoIndex_L002_R1_all.fastq /scratch365/crivaldi/data/Reads/RAD_NoIndex_L002_R3_all.fastq
+
+

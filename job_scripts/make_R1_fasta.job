@@ -1,0 +1,12 @@
+#!/bin/csh
+
+#$ -M crivaldi@nd.edu	 # Email address for job notification
+#$ -m abe		 # Send mail when job begins, ends and aborts
+#$ -q long		 # Specify queue
+#$ -N	make_R1_fasta	         # Specify job name
+
+module load bio        # Required modules to load
+
+egrep -A1 "@" /afs/crc.nd.edu/group/hollocher/macaque/Run121815B_KlegarthRAD_ReRun/Sample_RAD/fastq_only/all_combined/RAD_NoIndex_L002_R1_all.fastq | sed 's/@/>/g' | sed 's/--//g' > Rad_NoIndex_L002_R1.fasta
+
+

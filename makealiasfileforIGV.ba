@@ -1,0 +1,1 @@
+cat P_knowlesi.sam | grep @ | awk '{print , }' | sed -E 's/(\sSN:)/\t/g' > workinggenome_alias.tab

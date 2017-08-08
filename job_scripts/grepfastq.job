@@ -1,0 +1,11 @@
+#!/bin/csh
+
+#$ -M crivaldi@nd.edu	 # Email address for job notification
+#$ -m abe		 # Send mail when job begins, ends and aborts
+#$ -q long
+#$ -N bowtie_Mfasc	 # Specify job name
+#$ -pe smp 8            #cores
+
+
+
+grep -c "@" /afs/crc.nd.edu/group/hollocher/macaque/Run112515A_MS1MS2_Wilcox-Klegarth_UNH_old/MelissaS_KlegarthRAD-26801775/RAD-31013999/RAD_S97_L002_R1_001.fastq

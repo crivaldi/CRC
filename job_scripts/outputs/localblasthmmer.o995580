@@ -1,0 +1,3 @@
+Error: NCBI C++ Exception:
+    T0 "/home/coremake/release_build/build/PrepareRelease_Linux64-Centos_JSID_01_250088_130.14.22.10_9008__PrepareRelease_Linux64-Centos_1448906370/c++/compilers/unix/../../src/objtools/readers/fasta.cpp", line 2204: Error: ncbi::objects::CFastaReader::PostWarning() - CFastaReader: Near line 1, there's a line that doesn't look like plausible data, but it's not marked as defline or comment. (m_Pos = 1)
+

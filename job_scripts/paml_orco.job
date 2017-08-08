@@ -1,0 +1,14 @@
+#!/bin/csh
+
+#$ -M crivaldi@nd.edu	 # Email address for job notification
+#$ -m abe		 # Send mail when job begins, ends and aborts
+#$ -q long
+#$ -N paml	 # Specify job name
+#$ -pe smp 8            #cores
+
+
+module load bio        # Required modules to load
+
+/afs/crc.nd.edu/user/c/crivaldi/local/bin/paml4.8/bin/codeml /afs/crc.nd.edu/user/c/crivaldi/local/bin/paml4.8/examples/lysozyme/orco.ctl
+
+##/afs/crc.nd.edu/user/c/crivaldi/local/bin/paml4.8/examples/lysozyme/orco.ctl

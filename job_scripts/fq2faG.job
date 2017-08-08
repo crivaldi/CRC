@@ -1,0 +1,14 @@
+#!/bin/csh
+
+
+#$ -M crivaldi@nd.edu
+#$ -m abe
+#$ -r n
+#$ -q *@@bio
+#$ -N fastq-to-fasta
+#$ -pe smp 4
+
+cd /scratch365/crivaldi/data/2014_saliva/Preliminary_Saliva_RAD_Data/
+
+cat Barcode_GGCTCAATT.fastq | paste - - - - | sed 's/^@/>/g'| cut -f1-2 | tr '\t' '\n' > Barcode_GGCTCAATT.fasta
+

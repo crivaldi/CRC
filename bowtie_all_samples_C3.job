@@ -1,0 +1,33 @@
+#!/bin/csh
+
+
+#$ -M crivaldi@nd.edu
+#$ -m abe
+#$ -r n
+#$ -q *@@bio
+#$ -N M_fasc_C3_all_samples
+#$ -pe smp 4
+
+cd /scratch365/crivaldi/data/M_fascicularis/
+
+module load bio
+
+##Barcode TC
+
+bowtie2 -x /scratch365/crivaldi/data/M_fascicularis/M_fasc_immuno/C3.fasta -U /afs/crc.nd.edu/group/hollocher/macaque/Preliminary_Saliva_RAD_Data/Barcode_TCAGTAATT.fastq  -S /scratch365/crivaldi/data/M_fascicularis/M_fasc_immuno/M_fasc_C3_barcode_TC.sam
+
+
+##Barcode TG
+
+bowtie2 -x /scratch365/crivaldi/data/M_fascicularis/M_fasc_immuno/C3.fasta -U /afs/crc.nd.edu/group/hollocher/macaque/Preliminary_Saliva_RAD_Data/Barcode_TGGAAAATT.fastq  -S /scratch365/crivaldi/data/M_fascicularis/M_fasc_immuno/M_fasc_C3_barcode_TG.sam
+
+
+##Barcode C
+
+bowtie2 -x /scratch365/crivaldi/data/M_fascicularis/M_fasc_immuno/C3.fasta -U /afs/crc.nd.edu/group/hollocher/macaque/Preliminary_Saliva_RAD_Data/Barcode_CTGCGAATT.fastq  -S /scratch365/crivaldi/data/M_fascicularis/M_fasc_immuno/M_fasc_C3_barcode_C.sam
+
+
+##Barcode G
+
+bowtie2 -x /scratch365/crivaldi/data/M_fascicularis/M_fasc_immuno/C3.fasta -U /afs/crc.nd.edu/group/hollocher/macaque/Preliminary_Saliva_RAD_Data/Barcode_GGCTCAATT.fastq  -S /scratch365/crivaldi/data/M_fascicularis/M_fasc_immuno/M_fasc_C3_barcode_G.sam
+

@@ -1,0 +1,39 @@
+[bwa_aln_core] calculate SA coordinate... 9.10 sec
+[bwa_aln_core] write to the disk... 0.02 sec
+[bwa_aln_core] 262144 sequences have been processed.
+[bwa_aln_core] calculate SA coordinate... 9.06 sec
+[bwa_aln_core] write to the disk... 0.02 sec
+[bwa_aln_core] 524288 sequences have been processed.
+[bwa_aln_core] calculate SA coordinate... 9.13 sec
+[bwa_aln_core] write to the disk... 0.02 sec
+[bwa_aln_core] 786432 sequences have been processed.
+[bwa_aln_core] calculate SA coordinate... 8.98 sec
+[bwa_aln_core] write to the disk... 0.02 sec
+[bwa_aln_core] 1048576 sequences have been processed.
+[bwa_aln_core] calculate SA coordinate... 9.11 sec
+[bwa_aln_core] write to the disk... 0.02 sec
+[bwa_aln_core] 1310720 sequences have been processed.
+[bwa_aln_core] calculate SA coordinate... 0.91 sec
+[bwa_aln_core] write to the disk... 0.00 sec
+[bwa_aln_core] 1336251 sequences have been processed.
+[main] Version: 0.6.2-r126
+[main] CMD: bwa aln -n 3 -k 8 -t 8 /scratch365/crivaldi/data/M_fascicularis/GCF_000364345.1_Macaca_fascicularis_5.0_genomic.fna /afs/crc.nd.edu/user/c/crivaldi/local/bin/NDBL_HOT_RAD/python/RAD_NoIndex_L002_R1_all.trimmed.fq
+[main] Real time: 50.978 sec; CPU: 53.707 sec
+
+Usage:   bwa sampe [options] <prefix> <in1.sai> <in2.sai> <in1.fq> <in2.fq>
+
+Options: -a INT   maximum insert size [500]
+         -o INT   maximum occurrences for one end [100000]
+         -n INT   maximum hits to output for paired reads [3]
+         -N INT   maximum hits to output for discordant pairs [10]
+         -c FLOAT prior of chimeric rate (lower bound) [1.0e-05]
+         -f FILE  sam file to output results to [stdout]
+         -r STR   read group header line such as `@RG\tID:foo\tSM:bar' [null]
+         -P       preload index into memory (for base-space reads only)
+         -s       disable Smith-Waterman for the unmapped mate
+         -A       disable insert size estimate (force -s)
+
+Notes: 1. For SOLiD reads, <in1.fq> corresponds R3 reads and <in2.fq> to F3.
+       2. For reads shorter than 30bp, applying a smaller -o is recommended to
+          to get a sensible speed at the cost of pairing accuracy.
+

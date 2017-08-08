@@ -1,0 +1,16 @@
+#!/bin/csh
+
+#$ -M crivaldi@nd.edu	 # Email address for job notification
+#$ -m abe		 # Send mail when job begins, ends and aborts
+#$ -q long
+#$ -N blast_queries_R1	 # Specify job name
+
+module load bio        # Required modules to load
+
+
+/afs/crc.nd.edu/user/c/crivaldi/local/bin/blastn -query /afs/crc.nd.edu/user/c/crivaldi/data/Fastas/adj_name_combined.fasta -db /afs/crc.nd.edu/user/c/crivaldi/data/RAD_R1db -num_threads 4 -evalue 10e6 -outfmt 6 -out /afs/crc.nd.edu/user/c/crivaldi/data/blast_out/adj_name_comined_R1_blastout
+
+
+
+
+

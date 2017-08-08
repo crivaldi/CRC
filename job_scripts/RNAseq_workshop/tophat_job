@@ -1,0 +1,12 @@
+#!/bin/bash
+#$ -M jsarro@nd.edu
+#$ -m abe
+#$ -r n
+#$ -N jobname
+#$ -pe smp 1
+
+
+module load bio
+
+tophat2 -p8  -G /afs/crc.nd.edu/group/hoth/echo_base/genome/dpulex-genepredict-v11.gff  -o ./test /afs/crc.nd.edu/group/hoth/echo_base/genome/Daphnia_pulex.allmasked /afs/crc.nd.edu/group/hoth/echo_base/trimmed/Pool_1_E05_UV_1_trimmed_paired.fq.gz /afs/crc.nd.edu/group/hoth/echo_base/trimmed/Pool_1_E05_UV_2_trimmed_paired.fq.gz
+

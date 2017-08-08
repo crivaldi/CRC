@@ -1,0 +1,17 @@
+#!/bin/csh
+
+#$ -M crivaldi@nd.edu	 # Email address for job notification
+#$ -m abe		 # Send mail when job begins, ends and aborts
+#$ -q long		 # Specify queue
+#$ -N Bowtie-build	         # Specify job name
+#$ -r y			#don't know what this does-in sheri's job scripts
+#$ -pe smp 8		#cores
+
+module load bio	         # Required modules
+
+set path = ( $path /afs/crc.nd.edu/user/c/crivaldi/local/bin )
+
+
+
+bowtie2-build /scratch365/crivaldi/data/M_fascicularis/GCF_000364345.1_Macaca_fascicularis_5.0_genomic.fna /scratch365/crivaldi/data/M_fascicularis/M_fascicularis
+

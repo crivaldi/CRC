@@ -1,0 +1,16 @@
+#!/bin/csh
+
+#$ -M crivaldi@nd.edu	 # Email address for job notification
+#$ -m abe		 # Send mail when job begins, ends and aborts
+#$ -q long
+#$ -N vsearch	 # Specify job name
+#$ -pe smp 8            #cores
+
+
+module load bio        # Required modules to load
+
+
+/afs/crc.nd.edu/user/c/crivaldi/local/bin/mothur/vsearch --cluster_fast /scratch365/crivaldi/data/2014_saliva/Preliminary_Saliva_RAD_Data/bowtie_out/Barcode_GGCTCAATT_M_fasc_no_header.fasta --id 0.97 --centroids /scratch365/crivaldi/data/2014_saliva/Preliminary_Saliva_RAD_Data/bowtie_out/Barcode_G_M_fasc_fromsam.centroids
+
+
+#cluster fasta made from sam of barcode G... M_fasc bowtie output

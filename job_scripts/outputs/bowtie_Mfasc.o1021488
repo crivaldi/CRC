@@ -1,0 +1,4 @@
+Error: Could not open alignment output file /afs/crc.nd.edu/user/c/crivaldi/data/2012/blood.sam
+Error: Encountered internal Bowtie 2 exception (#1)
+Command: /afs/crc.nd.edu/x86_64_linux/bio/Bowtie/2.2.3/bowtie2-align-s --wrapper basic-0 -x /scratch365/crivaldi/data/M_fascicularis/M_fascicularis -S /afs/crc.nd.edu/user/c/crivaldi/data/2012/blood.sam -U /afs/crc.nd.edu/user/c/crivaldi/data/2012_RAD/blood.fastq 
+(ERR): bowtie2-align exited with value 1

@@ -1,0 +1,18 @@
+#!/bin/csh
+
+
+#$ -M crivaldi@nd.edu
+#$ -m abe
+#$ -r n
+#$ -q *@@bio
+#$ -N Mtub_mlst_tc
+#$ -pe smp 4
+
+cd /scratch365/crivaldi/data/M_fascicularis/
+
+module load bio
+
+bowtie2 -x /scratch365/crivaldi/data/M_tuberculosis/M_tub_MLST -U /afs/crc.nd.edu/group/hollocher/macaque/Preliminary_Saliva_RAD_Data/Barcode_TCAGTAATT.fastq  -S M_tub_MLST_barcode_TC
+
+
+

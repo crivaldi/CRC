@@ -1,0 +1,13 @@
+[bwa_aln_core] calculate SA coordinate... 0.43 sec
+[bwa_aln_core] write to the disk... 0.00 sec
+[bwa_aln_core] 19923 sequences have been processed.
+[main] Version: 0.6.2-r126
+[main] CMD: bwa aln -n 3 -k 8 -t 8 /scratch365/crivaldi/data/M_fascicularis/GCF_000364345.1_Macaca_fascicularis_5.0_genomic.fna /afs/crc.nd.edu/group/hollocher/macaque/Run121815B_KlegarthRAD_ReRun/Sample_RAD/fastq_only/Hot_Rad_out/u0722.fq
+[main] Real time: 33.118 sec; CPU: 3.787 sec
+[bwa_aln_core] convert to sequence coordinate... 3.61 sec
+[bwa_aln_core] refine gapped alignments... 1.35 sec
+[bwa_aln_core] print alignments... 0.06 sec
+[bwa_aln_core] 19923 sequences have been processed.
+[main] Version: 0.6.2-r126
+[main] CMD: bwa samse -n 1000 /scratch365/crivaldi/data/M_fascicularis/GCF_000364345.1_Macaca_fascicularis_5.0_genomic.fna /scratch365/crivaldi/data/M_fascicularis/M_fascicularis_u0722.sai /afs/crc.nd.edu/group/hollocher/macaque/Run121815B_KlegarthRAD_ReRun/Sample_RAD/fastq_only/Hot_Rad_out/u0722.fq
+[main] Real time: 35.107 sec; CPU: 5.140 sec

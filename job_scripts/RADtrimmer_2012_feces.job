@@ -1,0 +1,18 @@
+#!/bin/csh
+
+#$ -M crivaldi@nd.edu	 # Email address for job notification
+#$ -m abe		 # Send mail when job begins, ends and aborts
+#$ -q long		 # Specify queue
+#$ -N RADtrimmer	         # Specify job name
+#$ -pe smp 8		#cores
+module load bio	         # Required modules
+
+
+set path = ( $path /afs/crc.nd.edu/user/c/crivaldi/local/bin )
+
+cd /afs/crc.nd.edu/user/c/crivaldi/data/2012_RAD/
+
+#Hot rad with feces barcodes and first part of the first read of 2012 rad forward reads (from backup drives, Hollocher Lab Box July 2015 ARK/RAD/2012 RAD Data/ RAD-pool_si-L001_ R1_001.fastq
+python  /afs/crc.nd.edu/user/c/crivaldi/local/bin/NDBL_HOT_RAD/python/radtag0_trimmer.py -i /afs/crc.nd.edu/user/c/crivaldi/data/2012_RAD/2012_RAD_BARCODES_FECES.txt /afs/crc.nd.edu/user/c/crivaldi/data/2012_RAD/temp_RAD
+
+

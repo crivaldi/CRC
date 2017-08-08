@@ -1,0 +1,16 @@
+#!/bin/csh
+
+#$ -M crivaldi@nd.edu	 # Email address for job notification
+#$ -m abe		 # Send mail when job begins, ends and aborts
+#$ -q long
+#$ -N bowtie_Mfasc	 # Specify job name
+#$ -pe smp 8            #cores
+
+
+module load bio        # Required modules to load
+
+bowtie2 -x /scratch365/crivaldi/data/P_knowlesi/Pknow -U /afs/crc.nd.edu/user/c/crivaldi/data/_AS0710/AS0710.cut.fq -S /afs/crc.nd.edu/user/c/crivaldi/data/_AS0710/AS0710_cut_Pknow_bowtie.sam
+
+
+##script to aln RAD reads cut with trimmer.py and cutadapt to Mfasc genome
+##sequences sorted with radtrimmer.py

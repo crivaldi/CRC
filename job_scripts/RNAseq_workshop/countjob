@@ -1,0 +1,11 @@
+#!/bin/bash
+#$ -M jsarro@nd.edu
+#$ -m abe
+#$ -r n
+#$ -N jobname
+#$ -pe smp 1
+
+module load bio
+
+
+htseq-count -s no -m union -t gene -i trID  --format bam /afs/crc.nd.edu/group/hoth/echo_base/tophatoutput/Pool_1_E05_UV/accepted_hits.sorted.bam /afs/crc.nd.edu/group/hoth/echo_base/genome/dpulex-genepredict-v11.gff >Pool_1_E05_UV.out

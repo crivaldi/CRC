@@ -1,0 +1,5 @@
+N_processes:  0
+Traceback (most recent call last):
+  File "/scratch365/crivaldi/scripts/ParallelParser.py", line 98, in <module>
+    target_length = round((file_length/(nruns*3))+1)
+ZeroDivisionError: division by zero

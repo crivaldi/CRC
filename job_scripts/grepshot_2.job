@@ -1,0 +1,11 @@
+#!/bin/csh
+
+#$ -M crivaldi@nd.edu	 # Email address for job notification
+#$ -m abe		 # Send mail when job begins, ends and aborts
+#$ -pe mpi-12 12	 # Specify parallel environment and legal core size
+#$ -q long		 # Specify queue
+#$ -N	grep_shot_2	         # Specify job name
+
+module load bio        # Required modules to load
+
+egrep -i "aacgccaa" $SCRATCH/data/Reads/RAD_NoIndex_L002_R3_all.fastq > $SCRATCH/data/Reads/grepshot_2.txt # Application to execute

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/afs/crc.nd.edu/user/c/crivaldi/scripts/ParallelParser.py", line 35, in <module>
+    RADspecs_file = open(sys.argv[1], 'r')
+FileNotFoundError: [Errno 2] No such file or directory: 'RAD_NoIndex_L002.spec'

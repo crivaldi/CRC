@@ -1,0 +1,22 @@
+[bwa_aln_core] calculate SA coordinate... 11.28 sec
+[bwa_aln_core] write to the disk... 0.03 sec
+[bwa_aln_core] 262144 sequences have been processed.
+[bwa_aln_core] calculate SA coordinate... 11.24 sec
+[bwa_aln_core] write to the disk... 0.03 sec
+[bwa_aln_core] 524288 sequences have been processed.
+[bwa_aln_core] calculate SA coordinate... 11.40 sec
+[bwa_aln_core] write to the disk... 0.02 sec
+[bwa_aln_core] 786432 sequences have been processed.
+[bwa_aln_core] calculate SA coordinate... 10.96 sec
+[bwa_aln_core] write to the disk... 0.04 sec
+[bwa_aln_core] 1048576 sequences have been processed.
+[bwa_aln_core] calculate SA coordinate... 11.25 sec
+[bwa_aln_core] write to the disk... 0.02 sec
+[bwa_aln_core] 1310720 sequences have been processed.
+[bwa_aln_core] calculate SA coordinate... 1.12 sec
+[bwa_aln_core] write to the disk... 0.00 sec
+[bwa_aln_core] 1336251 sequences have been processed.
+[main] Version: 0.6.2-r126
+[main] CMD: bwa aln -n 3 -k 8 -t 8 /scratch365/crivaldi/data/M_fascicularis/GCF_000364345.1_Macaca_fascicularis_5.0_genomic.fna /afs/crc.nd.edu/user/c/crivaldi/local/bin/NDBL_HOT_RAD/python/RAD_NoIndex_L002_R1_all.trimmed.fq
+[main] Real time: 61.702 sec; CPU: 70.689 sec
+/afs/scratch365/crivaldi/data/RAD_NoIndex_L002_R1.sam: No such file or directory.

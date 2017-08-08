@@ -1,0 +1,13 @@
+#!/bin/csh
+
+#$ -M crivaldi@nd.edu	 # Email address for job notification
+#$ -m abe		 # Send mail when job begins, ends and aborts
+#$ -q long
+#$ -N bowtie_C_ulc	 # Specify job name
+#$ -pe smp 8            #cores
+
+
+module load bio        # Required modules to load
+
+bowtie2 -x /scratch365/crivaldi/data/C_ulcerans/C_ulcerans -U /scratch365/crivaldi/data/2014_saliva/Preliminary_Saliva_RAD_Data/Barcode_CTGCGAATT.fastq -S /scratch365/crivaldi/data/2014_saliva/Preliminary_Saliva_RAD_Data/Barcode_C_C_ulc.sam
+

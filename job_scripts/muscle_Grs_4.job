@@ -1,0 +1,15 @@
+#!/bin/csh
+
+#$ -M crivaldi@nd.edu	 # Email address for job notification
+#$ -m abe		 # Send mail when job begins, ends and aborts
+#$ -q long		 # Specify queue
+#$ -N muscle_Grs_4	         # Specify job name
+#$ -pe smp 8 		#cores
+
+
+module load bio	         # Required modules
+
+cd /afs/crc.nd.edu/user/c/crivaldi/local/bin/
+
+./muscle3.8.31_i86linux64 -in ~/data/zsyed/Grs.fas -out ~/data/zsyed/Grs_4.aln
+

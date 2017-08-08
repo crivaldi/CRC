@@ -1,0 +1,17 @@
+#!/bin/csh
+
+#$ -M crivaldi@nd.edu	 # Email address for job notification
+#$ -m abe		 # Send mail when job begins, ends and aborts
+#$ -q long
+#$ -N lessN	 # Specify job name
+
+module load bio        # Required modules to load
+
+
+/afs/crc.nd.edu/user/c/crivaldi/local/bin/blastn -query /afs/crc.nd.edu/user/c/crivaldi/Classes/AS0710_lessN.fa -db /scratch365/crivaldi/data/blast_db_nt/nt -num_threads 8 -max_target_seqs 10 -evalue 10e6 -outfmt 6 -out /afs/crc.nd.edu/user/c/crivaldi/Classes/AS0710n.cut.fq.outfmt6
+
+###from command line
+###afs/crc.nd.edu/user/c/crivaldi/local/bin/blastn -query /afs/crc.nd.edu/user/c/crivaldi/data/Hmmer_stuff/outextended_hmmout.fasta -db nt -remotet 6 -evalue 10e6 -out ~/data/blast_out/hmm_extout_blast_outfmt6
+
+
+

@@ -1,0 +1,13 @@
+Reading file CBARCODE.fastq 100%
+676585794 nt in 7084668 seqs, min 91, max 100, avg 96
+Masking 100%
+Sorting by length 100%
+Counting unique k-mers 100%
+Clustering 100%
+Sorting clusters 100%
+Writing clusters 100%
+Clusters: 1650845 Size min 1, max 78570, avg 4.3
+Singletons: 1177020, 16.6% of seqs, 71.3% of clusters
+vsearch v1.10.2_linux_x86_64, 997.4GB RAM, 64 cores
+https://github.com/torognes/vsearch
+

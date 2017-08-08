@@ -1,0 +1,11 @@
+#!/bin/bash
+#$ -M jsarro@nd.edu
+#$ -m abe
+#$ -r n
+#$ -N jobname
+#$ -pe smp 1
+
+
+module load bio
+
+trimmomatic PE -phred64 /afs/crc.nd.edu/group/hoth/echo_base/raw/Pool_1_E05_UV_1.fq.gz  /afs/crc.nd.edu/group/hoth/echo_base/raw/Pool_1_E05_UV_2.fq.gz ./Pool_1_E05_UV_1_trimmed_paired.fq.gz ./Pool_1_E05_UV_1_trimmed_unpaired.fq.gz ./Pool_1_E05_UV_2_trimmed_paired.fq.gz ./Pool_1_E05_UV_2_trimmed_unpaired.fq.gz ILLUMINACLIP:/afs/crc.nd.edu/x86_64_linux/bio/Trimmomatic/0.32/adapters/TruSeq3-PE.fa:2:30:10 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36

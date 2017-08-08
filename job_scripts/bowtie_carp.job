@@ -1,0 +1,17 @@
+#!/bin/csh
+
+#$ -M crivaldi@nd.edu	 # Email address for job notification
+#$ -m abe		 # Send mail when job begins, ends and aborts
+#$ -q long
+#$ -N bowtie_carp	 # Specify job name
+
+module load bio        # Required modules to load
+
+cd /scratch365/crivaldi/data/C_carpio/
+
+bowtie2-build GCA_000951615.1_common_carp_genome_genomic.fna C_carpio
+
+bowtie2 -x C_carpio -U /afs/crc.nd.edu/user/c/crivaldi/data/HotRad_out/u0722.fq -S C_carpio_u0722_bowtie.sam
+
+
+

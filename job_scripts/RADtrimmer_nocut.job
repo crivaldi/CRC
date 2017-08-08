@@ -1,0 +1,17 @@
+#!/bin/csh
+
+#$ -M crivaldi@nd.edu	 # Email address for job notification
+#$ -m abe		 # Send mail when job begins, ends and aborts
+#$ -q long		 # Specify queue
+#$ -N RADtrimmer	         # Specify job name
+
+module load bio	         # Required modules
+
+
+set path = ( $path /afs/crc.nd.edu/user/c/crivaldi/local/bin )
+cd  /afs/crc.nd.edu/user/c/crivaldi/local/bin/NDBL_HOT_RAD/python/
+
+
+python radtag0_trimmer.py -c 0 /afs/crc.nd.edu/user/c/crivaldi/data/HotRad_out/RAD_BARCODES.txt /afs/crc.nd.edu/group/hollocher/macaque/Run121815B_KlegarthRAD_ReRun/Sample_RAD/fastq_only/all_combined/RAD_NoIndex_L002_R1_all.fastq
+
+

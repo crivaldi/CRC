@@ -1,0 +1,14 @@
+#!/bin/csh
+
+#$ -M crivaldi@nd.edu	 # Email address for job notification
+#$ -m abe		 # Send mail when job begins, ends and aborts
+#$ -q short		 # Specify queue
+#$ -N fastqc_R1_all	         # Specify job name
+
+module load bio	         # Required modules
+module load python/3.4.0
+
+
+
+fastqc /afs/crc.nd.edu/user/c/crivaldi/data/cutadapt_out/RAD_R1_cut.fastq -o /afs/crc.nd.edu/user/c/crivaldi/data/cutadapt_out/
+

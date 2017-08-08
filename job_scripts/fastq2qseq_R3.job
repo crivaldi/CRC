@@ -1,0 +1,16 @@
+#!/bin/csh
+
+#$ -M crivaldi@nd.edu	 # Email address for job notification
+#$ -m abe		 # Send mail when job begins, ends and aborts
+#$ -q long		 # Specify queue
+#$ -N fastq2seq_R3	         # Specify job name
+
+module load bio	         # Required modules
+module load python/3.4.0
+
+
+cd /scratch365/crivaldi/
+
+python3 scripts/fastq2qseq.py /scratch365/crivaldi/data/Reads/RAD_NoIndex_L002_R3_all.fastq
+
+

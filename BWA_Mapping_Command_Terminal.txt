@@ -1,0 +1,49 @@
+Hello,
+
+Here are the commands for BWA, easiest way to ensure everything works is that you cd into the directory where your 2 fastq files and reference files are, or copy them all into bwa folder:
+
+type bwa if works yay
+
+if doesn't - move into a global directory - 
+
+./bwa instead of just bwa runs as .exe
+
+1) Index your reference
+
+bwa index reference.fa
+
+After this there are 2 ways to go about the next step: BWA-mem
+
+New way
+2)
+bwa mem reference.fa end1.fq end2.fq > sample.sam
+
+Old way (which I normally use and works)
+2)
+bwa aln reference.fa end1.fq > end1.sai
+bwa aln reference.fa end2.fq > end2.sai
+
+bwa sampe reference.fa end1.sai end2.sai end1.fq end2.fq > sample.sam
+
+Once you have the sam files, you would need samtools to convert sam to bam. Download and install http://sourceforge.net/projects/samtools/files/latest/download?source=files
+
+once downloaded: 
+
+3) index reference for samtools:
+
+samtools faidx reference.fa
+
+4) Convert sam to bam file
+
+samtools view -bS sample.sam >sample.bam
+
+I recommend adding -F 4 to this command as it reduces file size by getting rid of all unmapped reads. So the command would be
+samtools view -bS -F 4 sample.sam >sample.bam
+
+5) Sort your bam file
+samtools sort sample.bam sample.sorted
+
+6) Index your bam file
+samtools index sample.sorted.bam
+
+Good luck!

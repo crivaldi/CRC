@@ -1,0 +1,10 @@
+
+
+Building a new DB, current time: 03/07/2016 18:10:47
+New DB name:   /afs/crc.nd.edu/user/c/crivaldi/scripts/job_scripts/afs/crc.nd.edu/user/c/crivaldi/data/RAD_R1db
+New DB title:  afs/crc.nd.edu/group/hollocher/macaque/Run121815B_KlegarthRAD_ReRun/Sample_RAD/fastq_only/all_combined/Rad_NoIndex_L002_R1.fasta
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+BLAST options error: File afs/crc.nd.edu/group/hollocher/macaque/Run121815B_KlegarthRAD_ReRun/Sample_RAD/fastq_only/all_combined/Rad_NoIndex_L002_R1.fasta does not exist

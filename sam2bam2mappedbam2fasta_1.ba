@@ -1,0 +1,26 @@
+#!/bin/bash
+###This file takes output from bowtie2 (or any sam file) and converts it
+### to a bam file, then extracts the mapped reads and then makes a 
+###fasta out of them. 
+###
+###$1 is bam file to input 
+###$2 is name of output fasta
+###Written by Chissa Rivaldi
+###09_29_2016
+###Programs needed to run: samtools
+
+
+###need to do still - adjust for intermediate files & name output files according to parent file
+
+INFILE="$1"
+OUTFILE="$2"
+
+
+
+
+samtools view -b -F 4 ${INFILE} > ${INFILE}.mapped.bam
+
+##bam2fasta
+
+samtools fasta mapped.bam > ${OUTFILE}
+

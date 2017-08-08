@@ -1,0 +1,4 @@
+Error: Could not open alignment output file /scratch365/data/2014_saliva/Preliminary_Saliva_RAD_Data/Barcode_C_M_tub.sam
+Error: Encountered internal Bowtie 2 exception (#1)
+Command: /afs/crc.nd.edu/x86_64_linux/bio/Bowtie/2.2.3/bowtie2-align-s --wrapper basic-0 -x /scratch365/crivaldi/data/M_tuberculosis/M_tuberculosis -S /scratch365/data/2014_saliva/Preliminary_Saliva_RAD_Data/Barcode_C_M_tub.sam -U /scratch365/crivaldi/data/2014_saliva/Preliminary_Saliva_RAD_Data/Barcode_CTGCGAATT.fastq 
+(ERR): bowtie2-align exited with value 1

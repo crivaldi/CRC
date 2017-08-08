@@ -1,0 +1,12 @@
+#!/bin/csh
+#$ -M jsarro@nd.edu
+#$ -m abe
+#$ -r n
+#$ -q *@@bio
+#$ -N cuffdiffworkshop
+#$ -pe smp 4
+
+
+module load bio
+
+cuffdiff -p 8 -o cuffdiffout/ /afs/crc.nd.edu/group/hoth/echo_base/genome/dpulex-genepredict-v11.gff /afs/crc.nd.edu/group/hoth/echo_base/tophatoutput/Pool_1_E05_VIS/accepted_hits.bam,/afs/crc.nd.edu/group/hoth/echo_base/tophatoutput/Pool_2_E05_VIS/accepted_hits.bam,/afs/crc.nd.edu/group/hoth/echo_base/tophatoutput/Pool_3_E05_VIS/accepted_hits.bam /afs/crc.nd.edu/group/hoth/echo_base/tophatoutput/Pool_1_E05_UV/accepted_hits.bam,/afs/crc.nd.edu/group/hoth/echo_base/tophatoutput/Pool_2_E05_UV/accepted_hits.bam,/afs/crc.nd.edu/group/hoth/echo_base/tophatoutput/Pool_3_E05_UV/accepted_hits.bam
