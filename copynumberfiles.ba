@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#This script will add a number to the beginning of all selected files 
+#as is, this script will remove the extension '.txt' from filenames
+#to customize, choose what files will be selected in first line of code
+
+for i in {1..10} ; do
+touch ${i}mock.fastq
+done
+
+for file in  *mock.fastq; do 
+cat 10mock-forward-read.fastq > $file;
+done

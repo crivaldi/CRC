@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+#this script appends text to files in a for loop
+#this script as is, this script will add the text "test text" to the end of files
+#to customize, choose what files will be selected in first line of code
+	#change what is added to text and which files to add to. 
+ 
+for i in $(ls); do
+echo "text text" >> $i;
+done

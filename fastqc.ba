@@ -1,0 +1,16 @@
+#!/bin/bash
+
+
+#for i in *.fastq
+#do
+#echo "Beep boop. I'm a computer running fastqc on file $i"
+#/usr/local/fastqc/latest/fastqc $i
+#done
+
+module load bio 
+
+for d in */*.fastq.gz
+do
+	echo "Currently analyzing file $d"
+	fastqc $d
+done

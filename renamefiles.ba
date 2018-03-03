@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#this script replaces strings of filenames
+#as is, this script will remove the extension '.txt' from filenames
+#to customize, choose what files will be selected in first line of code
+	#change what is changed and what will be replaced. 
+ 
+for i in $(ls); do
+rename "s/.txt//" $i;
+done
