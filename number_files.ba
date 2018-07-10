@@ -1,0 +1,9 @@
+#This script takes all files ending with .jpg and renumbers them with a sequential pattern while keeping the original 
+#file name. Written at DIBSI 070618_Chissa Rivaldi  
+a=1
+for i in *.jpg
+do
+  cp -- "$i" "${i/.jpg/$a.jpg}"
+  let a=a+1
+
+done
