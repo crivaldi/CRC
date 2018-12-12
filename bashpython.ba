@@ -1,0 +1,4 @@
+for file in /afs/crc.nd.edu/user/c/crivaldi/analysis/16S-18S/print/*
+do 
+	/usr/bin/python /afs/crc.nd.edu/user/c/crivaldi/analysis/16S-18S/samplepython.py $file
+done

@@ -1,0 +1,18 @@
+#!/bin/bash
+#This program converts fastq files to fasta files.
+#This program is called by: 
+#./fastq2fasta.ba <infile.fastq> <outfile.fa> 
+#It requires a file in standard fastq format and will produce a fasta file as output.
+#Author: Chissa Rivaldi
+
+
+
+echo "Converting $1 (fastq) to $2 (fasta)"
+#will print out file name used as input
+
+cat $1 | grep -A 1 "@" | sed 's/@/>/g' | sed 's/--//g' > $2
+
+#takes input file, pulls lines that begin with @ plus one after, replaces @ with >, removes --, makes new file & names it what the user has designated ($2).
+
+
+echo "done"

@@ -1,0 +1,30 @@
+#Author: Chissa Rivaldi 12/12/18
+#run as ./rename_files.ba in directory with file names matching file name format on next line
+#current file names: @PU0756-B16S-18S_1509R.merged.fq.merged.fq
+#goal file name PU0756-B_1509.merged.fq
+
+
+
+#step1: @PU0756-B16S-18S_1509R.merged.fq.merged.fq
+# @PU0756-B16S-18S_1509R.merged.fq
+
+for file in *.merged.fq
+do 
+	mv "$file" "${file%%merged.fq.merged.fq}merged.fq"
+done
+
+#step2: remove @
+for file in *.merged.fq
+do
+	mv "$file" "${file/@/}"
+done
+
+
+# step 3: remove 16S-18S string from middle of name
+for file in *.merged.fq
+do
+	mv "$file" "${file/16S-18S/}"
+done
+
+#note: tried to combine all mv lines into one for loop - didn't work but didn't have time to really figure out why 
+

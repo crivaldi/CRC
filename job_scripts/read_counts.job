@@ -1,0 +1,11 @@
+#!/bin/csh
+
+#$ -M crivaldi@nd.edu	 # Email address for job notification
+#$ -m abe		 # Send mail when job begins, ends and aborts
+#$ -pe smp 4	 # Specify parallel environment and legal core size
+#$ -q long		 # Specify queue
+#$ -N read_counts	         # Specify job name
+
+
+cd /afs/crc.nd.edu/group/hollocher/macaque/16S_RivaldiEganWilcox2017/RawData/
+grep -c "^@" *.fastq

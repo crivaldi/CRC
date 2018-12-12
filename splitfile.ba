@@ -1,0 +1,19 @@
+#!/bin/bash 
+
+#use this program to create a list of sample names that are listed in the giant fastq file made by merging
+#paired ends using usearch
+#usage ./splitfile.ba <fastq to be split>
+ 
+#create list of unique sample names and put them into one file
+#cat $1 | grep '^@[^J]' | cut -d . -f 1 | sort | uniq > $1.names
+
+#use list created in previous step as a dictionary to search big fastq
+#then create separate file for each sample with all fastq lines
+
+names=$(cat $1.names)
+
+
+for line in $names
+do
+	grep -A3 $line $1 > $2/$line$1.merged.fq
+done
