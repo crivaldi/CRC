@@ -1,0 +1,29 @@
+#this script takes file names (examples at end of script) and parses the names to only include the characters before the barcode
+#workflow is - select the files which have names to be parsed
+#echo the names, capture everything before barcode
+#somehow this still captures the barcode, so then another sed command is introduced to remove that part plus the dashes
+#names are dumped into a text file and then that file is stripped of duplicates 
+for f in *.merged
+do
+  	i=$(echo $f | sed -re 's/(^(.*?))[ATCG]{8}.+.merged/\1/g' | sed -re 's/-[ATGC]{8}-//g')
+	echo $i >> names
+done
+
+cat names | uniq > unique_names
+
+
+#example code for above (from stack overflow)
+#for x in *.xml; do 
+#  t=$(echo $x | sed 's/\.xml$/.txt/'); 
+#  mv $x $t && echo "moved $x -> $t"
+#done
+
+#example filenames
+
+#TK0704-CTCTCTAC-CTAAGCCT-L001-R1-001.fastq-18S-1380F.merged        
+#TK0704-CTCTCTAC-CTAAGCCT-L001-R1-001.fastq-unsorted-18S-1380F.merged
+#TK0704-A-CTCTCTAC-CTAAGCCT-L001-R1-001.fastq-unsorted-18S-1380F.merged
+
+#example output
+#TK0704
+#TK0704-A

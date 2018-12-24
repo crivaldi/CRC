@@ -1,0 +1,27 @@
+for file in *
+do
+	echo $file | cut -d '-' -f 1 >> names
+done
+
+cat names | uniq > unique_names
+
+names=$(cat unique_names)
+
+
+for line in $names
+do
+        cat $line* > $line.fq
+done
+
+
+
+#for file in {*.fastq-18S*,*.fastq-unsorted-18S*}
+#do
+#	cat $file >> ${file/.merged/}
+#done 
+
+
+
+#TK0704-CTCTCTAC-CTAAGCCT-L001-R1-001.fastq-18S-1380F.merged        
+#TK0704-CTCTCTAC-CTAAGCCT-L001-R1-001.fastq-unsorted-18S-1380F.merged
+
